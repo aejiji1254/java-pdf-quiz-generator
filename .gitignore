@@ -1,0 +1,42 @@
+# Build outputs and local Maven validation cache
+/target/
+/.m2-validation/
+*.class
+
+# User quizzes, results, local analysis, and tool logs
+/data/
+/tmp/
+/extracted.txt
+/.github/modernize/
+*.log
+
+# Machine-specific editor settings
+/.vscode/
+/.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Credentials and private keys (do not commit real credentials)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+/credentials*.json
+
+# Teaching materials: excluded pending explicit sharing-permission approval.
+# Some baseline JSON/report files reproduce text from those materials.
+*.pdf
+/sample2/
+/src/test/resources/baseline/
+/PDF_EXTRACTION_NOTES.md
+/docs/bracket-screen-impact-review.md
+/docs/extraction-yield-analysis.md
+/docs/mc-sample-review.md
+/docs/ox-sample-review.md
+/docs/question-algorithm-review.md
+/docs/sample2-structured-evaluation-report.md
+/docs/structured-extraction-review.md
